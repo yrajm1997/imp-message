@@ -1,5 +1,8 @@
 import "./App.css";
 import Confetti from "./Confetti";
+import myGif from './diwali.gif'; // Adjust the path as needed
+
+
 
 const shareMessage = "I just ran my first container using Docker";
 const shareLink = "https://docker.com/";
@@ -13,6 +16,7 @@ const App = () => {
         <p style={{ marginTop: "10px", marginBottom: "50px" }}>
         May the light of the diyas guide you towards the path of happiness and success.
         </p>
+        <img src={myGif} alt="Diyas Image" style={{ width: '300px', height: 'auto' }} />
       </header>
     </div>
   );
